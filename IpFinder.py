@@ -39,7 +39,7 @@ if len(argv) >= 2:
 			isip(ip,ips)
 			
 else:
-	print "ipfinder.py <path>"
+	print "ipfinder.py <file_path>"
 	
 for i in ips:
 	if i not in difips:
