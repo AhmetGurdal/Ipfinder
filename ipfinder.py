@@ -1,24 +1,32 @@
 import re
-import sys
+from sys import argv
 
+print argv
+
+if (argv)
 f = open("ip.txt","r")
 
-a = re.findall(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}[^\.]',f.read())
+best = re.findall(r'\d{1,4}\.\d{1,3}\.\d{1,3}\.\d{1,4}',f.read())
+
 excellent = []
 lookslike = []
-for i in a:
-	c = True
-	for j in i.split("."):
-		
-		if int(j) > 255:
-			c = False
 
+for i in best:
+	c = True
+	
+	if len(i.split(".")) > 4:
+		c = False
 	if c:
-		excellent.append(i[:-1])
+		for j in i.split("."):
+			if int(j) > 255:
+				c = False
+				break
+	if c:
+		excellent.append(i)
 
 	else:
-		lookslike.append(i[:-1])
-
+		lookslike.append(i)
+print "----------------------"
 print "Most probably IP addresses"
 again = []
 if len(excellent) > 0:

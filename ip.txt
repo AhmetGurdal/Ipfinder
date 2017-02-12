@@ -4,13 +4,13 @@ Edit the Expression & Text to see matches. Roll over matches or the expression f
 115.127.154.58
 17.255.115.104
 22.44.166.29
-115.127.154.58
+115.127.252.58
 17.255.115.104
 22.44.166.29
 
 99.151.170.76 & Share expressions with friends or the Community. Explore your results with Tools. A full 115.127.154.58
 
-22.44.166.29Reference & Help is available in the Library, or watch the video Tutorial.
+222.44.166.29Reference & Help is available in the Library, or watch the video Tutorial.
 
 Sample text for testing:
 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
